@@ -1,0 +1,6 @@
+function say(greeting, my name is firstName) {
+  console.log("Hello, what is your name?")
+  return `${greeting}, my name is ${firstName}.`
+}
+
+say("Hi", my name is "Matt")
